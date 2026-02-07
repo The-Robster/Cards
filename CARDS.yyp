@@ -38,6 +38,7 @@
     {"id":{"name":"fpv_start0001","path":"sprites/fpv_start0001/fpv_start0001.yy",},},
     {"id":{"name":"spr_angle_2_scene","path":"sprites/spr_angle_2_scene/spr_angle_2_scene.yy",},},
     {"id":{"name":"spr_angle_2","path":"sprites/spr_angle_2/spr_angle_2.yy",},},
+    {"id":{"name":"spr_angle_4","path":"sprites/spr_angle_4/spr_angle_4.yy",},},
     {"id":{"name":"spr_back_orient_1","path":"sprites/spr_back_orient_1/spr_back_orient_1.yy",},},
     {"id":{"name":"spr_player_hands","path":"sprites/spr_player_hands/spr_player_hands.yy",},},
   ],
