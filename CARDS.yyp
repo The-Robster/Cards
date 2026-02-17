@@ -38,8 +38,11 @@
   "resources":[
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"angle1_justcardsall0001","path":"sprites/angle1_justcardsall0001/angle1_justcardsall0001.yy",},},
+    {"id":{"name":"angle2_justcardsall0001","path":"sprites/angle2_justcardsall0001/angle2_justcardsall0001.yy",},},
+    {"id":{"name":"angle2_justchairs0001","path":"sprites/angle2_justchairs0001/angle2_justchairs0001.yy",},},
     {"id":{"name":"angle60001","path":"sprites/angle60001/angle60001.yy",},},
     {"id":{"name":"spr_angle_1_scene_1","path":"sprites/spr_angle_1_scene_1/spr_angle_1_scene_1.yy",},},
+    {"id":{"name":"spr_angle_1_scene_2","path":"sprites/spr_angle_1_scene_2/spr_angle_1_scene_2.yy",},},
     {"id":{"name":"spr_angle_1","path":"sprites/spr_angle_1/spr_angle_1.yy",},},
     {"id":{"name":"spr_angle_2_scene_1","path":"sprites/spr_angle_2_scene_1/spr_angle_2_scene_1.yy",},},
     {"id":{"name":"spr_angle_2_scene_2","path":"sprites/spr_angle_2_scene_2/spr_angle_2_scene_2.yy",},},
