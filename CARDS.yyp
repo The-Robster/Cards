@@ -44,6 +44,7 @@
     {"id":{"name":"spr_angle_1_scene_1","path":"sprites/spr_angle_1_scene_1/spr_angle_1_scene_1.yy",},},
     {"id":{"name":"spr_angle_1_scene_2","path":"sprites/spr_angle_1_scene_2/spr_angle_1_scene_2.yy",},},
     {"id":{"name":"spr_angle_1","path":"sprites/spr_angle_1/spr_angle_1.yy",},},
+    {"id":{"name":"spr_angle_2_scene_1_reanimated","path":"sprites/spr_angle_2_scene_1_reanimated/spr_angle_2_scene_1_reanimated.yy",},},
     {"id":{"name":"spr_angle_2_scene_1","path":"sprites/spr_angle_2_scene_1/spr_angle_2_scene_1.yy",},},
     {"id":{"name":"spr_angle_2_scene_2","path":"sprites/spr_angle_2_scene_2/spr_angle_2_scene_2.yy",},},
     {"id":{"name":"spr_angle_2","path":"sprites/spr_angle_2/spr_angle_2.yy",},},
