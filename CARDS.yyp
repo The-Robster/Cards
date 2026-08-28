@@ -37,6 +37,7 @@
   },
   "name":"CARDS",
   "resources":[
+    {"id":{"name":"obj_angle_1_scene_1_backdrop_table","path":"objects/obj_angle_1_scene_1_backdrop_table/obj_angle_1_scene_1_backdrop_table.yy",},},
     {"id":{"name":"obj_angle_1_scene_1_backdrop","path":"objects/obj_angle_1_scene_1_backdrop/obj_angle_1_scene_1_backdrop.yy",},},
     {"id":{"name":"obj_angle_1_scene_1_characters","path":"objects/obj_angle_1_scene_1_characters/obj_angle_1_scene_1_characters.yy",},},
     {"id":{"name":"obj_angle_1_scene_1_foreground","path":"objects/obj_angle_1_scene_1_foreground/obj_angle_1_scene_1_foreground.yy",},},
@@ -49,6 +50,7 @@
     {"id":{"name":"angle2_justcardsall0001","path":"sprites/angle2_justcardsall0001/angle2_justcardsall0001.yy",},},
     {"id":{"name":"angle2_justchairs0001","path":"sprites/angle2_justchairs0001/angle2_justchairs0001.yy",},},
     {"id":{"name":"angle60001","path":"sprites/angle60001/angle60001.yy",},},
+    {"id":{"name":"spr_angle_1_scene_1_background_table","path":"sprites/spr_angle_1_scene_1_background_table/spr_angle_1_scene_1_background_table.yy",},},
     {"id":{"name":"spr_angle_1_scene_1_background","path":"sprites/spr_angle_1_scene_1_background/spr_angle_1_scene_1_background.yy",},},
     {"id":{"name":"spr_angle_1_scene_1_characters","path":"sprites/spr_angle_1_scene_1_characters/spr_angle_1_scene_1_characters.yy",},},
     {"id":{"name":"spr_angle_1_scene_1_foreground","path":"sprites/spr_angle_1_scene_1_foreground/spr_angle_1_scene_1_foreground.yy",},},

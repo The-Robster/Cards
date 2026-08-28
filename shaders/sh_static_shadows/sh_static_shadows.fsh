@@ -74,7 +74,7 @@ float adjustColor(float color) {
 	return ((color * 0.7) - .2);
 }
 
-vec4 voidColorAtCoord(vec2 coord) {
+vec4 voidColorAtCoord(vec2 coord, vec4 in_color) {
 	float result = marbleTwiceTimeAdjusted(coord);
 	
 	float alpha = 1.0;
@@ -82,7 +82,13 @@ vec4 voidColorAtCoord(vec2 coord) {
 	//	alpha = .2 + (1.0 - result);
 	//}
 	
-	alpha = result + u_alpha_mix;//* result + u_alpha_mix;
+	alpha = min(result + u_alpha_mix, 1.0);//* result + u_alpha_mix;
+	float alpha_adjust = (3.0 - (in_color.r + in_color.g + in_color.b))/3.0;
+	alpha_adjust = alpha_adjust - .33;
+	alpha_adjust = max(alpha_adjust, 0.0);
+ 	alpha_adjust = alpha_adjust * 1.5;
+	alpha_adjust = alpha_adjust * in_color.a;
+	alpha = alpha * alpha_adjust;
 	
 	return vec4(adjustColor(result), 0.0, adjustColor(result), alpha);
 }
@@ -125,7 +131,7 @@ void main()
 	}
 	
 	//This is the sauce. gl_FragCoord gives us coordinates relative to the window
-	vec4 voidColor = voidColorAtCoord(gl_FragCoord.xy);
+	vec4 voidColor = voidColorAtCoord(gl_FragCoord.xy, originalColor);
 	
 	voidColor = featherEdges(voidColor);
 	
