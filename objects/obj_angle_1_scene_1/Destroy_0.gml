@@ -1,0 +1,3 @@
+instance_destroy(backdrop)
+instance_destroy(foreground)
+instance_destroy(characters)
